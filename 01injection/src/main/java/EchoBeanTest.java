@@ -4,7 +4,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import com.bean.EchoBean;
 
 
-
+ 
 public class EchoBeanTest {
 
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class EchoBeanTest {
 		EchoBean bean3=
 				ctx.getBean("echo",EchoBean.class);
 		System.out.println(bean3.sayEcho("강감찬"));
-
+		System.out.println("11");
 	}
 
 }
